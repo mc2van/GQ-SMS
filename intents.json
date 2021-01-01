@@ -1,0 +1,178 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "Hey"
+            ],
+            "responses": [
+                "Hi there, how can I help? Type 'help' for more info.",
+                "Hello, ask me a question! Type 'help' for more info."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "that's all"
+            ],
+            "responses": [
+                "Reminder: you matter. Take it easy today.",
+                "Reminder: you matter. Have a nice day!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure!"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Help",
+                "'Help'"
+            ],
+            "responses": [
+                "Please note that this messaging service is not equipped for personal disclosure of mental health distress, suicidal thoughts, and/or behaviours. If you or someone you know are in crisis, please call 911, text 1-800-273-8255 (Suicide Prevention Line) or go to your nearest emergency department for assistance.\nHere are some things to ask me about:\n- Movember\n- Warning Signs / Symptoms\n- Who can I talk to?\n- A new resource (or all resources)\n- COVID-19 and Mental Health \n- Practicing difficult conversations\n- Self-checks\n- How to help"
+            ]
+        },
+        {
+            "tag": "signsandsymptoms",
+            "patterns": [
+                "Warning Signs",
+                "Symptoms",
+                "Warning Signs and Symptoms"
+            ],
+            "responses": [
+                "Mental Illnesses are extremely difficult to diagnose, especially in men who often choose to stay silent. For more information, visit https://www.nimh.nih.gov/health/topics/men-and-mental-health/index.shtml"
+            ]
+        },
+        {
+            "tag": "movember",
+            "patterns": [
+                "movember",
+                "mo"
+            ],
+            "responses": [
+                "Movember is the leading charity, changing the face of men's health. For more information, visit them at https://ca.movember.com/?home"
+            ]
+        },
+        {
+            "tag": "talktosomeone",
+            "patterns": [
+                "I need someone to talk to",
+                "talk to someone",
+                "I feel lonely",
+                "hard to talk",
+                "discuss",
+                "speak to",
+                "who can I reach out to"
+            ],
+            "responses": [
+                "It's normal to feel scared of speaking up - male and societal attitudes often foster silence. Know that there will always be people willing to help you. For text or phone lines, visit https://www.ccmhs-ccsms.ca/mental-health-resources-1.\n https://www.tethr.men/ is also a great place to build community, if that's what you're looking for."
+            ]
+        },
+        {
+            "tag": "oneresource",
+            "patterns": [
+                "give me a resource",
+                "one resource",
+                "what is a resource",
+                "resource",
+                "a resource",
+                "another resource",
+                "one more"
+            ],
+            "responses": [
+                "Glad you asked! Willingness to explore is the first step to awareness.\nCheck out projectcircleup, a social media community bringing men together: https://www.instagram.com/projectcircleup/?hl=en",
+                "Glad you asked! Willingness to explore is the first step to awareness.\nCheck out #sicknotweak, a not-for-profit that creates a community of strength and to help sufferers and others affected: https://www.sicknotweak.com/",
+                "Glad you asked! Willingness to explore is the first step to awareness.\nCheck out jack.org, a national community for youth, by youth. Get involved: https://jack.org/Home",
+                "Glad you asked! Willingness to explore is the first step to awareness.\nCheck out betterhelp, an online therapy and counseling site: https://www.betterhelp.com/",
+                "Glad you asked! Willingness to explore is the first step to awareness.\nCheck out The LifeLine Canada Foundation: https://thelifelinecanada.ca/",
+                "Glad you asked! Willingness to explore is the first step to awareness.\nCheck out togetherall, an online support group: https://togetherall.com/en-ca/?from=bwwca%2F"
+            ]
+        },
+        {
+            "tag": "covid",
+            "patterns": [
+                "coronavirus",
+                "covid-19",
+                "pandemic"
+            ],
+            "responses": [
+                "Pandemics are stressful - you're not alone. Visit https://www.cdc.gov/coronavirus/2019-ncov/daily-life-coping/managing-stress-anxiety.html to learn about mental health during the current pandemic. \nbetterhelp: https://www.betterhelp.com/ \n"
+            ]
+        },
+        {
+            "tag": "allresources",
+            "patterns": [
+                "give me a list of all resources",
+                "all resources"
+            ],
+            "responses": [
+                "Here's a short list of great mental health resources. By no means is this list extensive, I'd encourage you to do some extra searching on your own as well!\nprojectcircleup: https://www.instagram.com/projectcircleup/?hl=en \n#sicknotweak: https://www.sicknotweak.com/ \njack.org: https://jack.org/Home \nThe LifeLine Canada: https://thelifelinecanada.ca/ \ntogetherall: https://togetherall.com/en-ca/?from=bwwca%2F"
+            ]
+        },
+        {
+            "tag": "practiceconvos",
+            "patterns": [
+                "practice conversations",
+                "how can I practice"
+            ],
+            "responses": [
+                "It's great that you're taking this initiative! Check out https://conversations.movember.com/ for a quick simulation, courtesy of movember."
+            ]
+        },
+        {
+            "tag": "selfcheck",
+            "patterns": [
+                "self check",
+                "check on myself",
+                "do I suffer from",
+                "am I depressed"
+            ],
+            "responses": [
+                "Self check-ups are extremely important - be honest and kind with yourself and seek help if you need it. It doesn't make you weak. https://headsupguys.org/mens-depression/self-check/"
+            ]
+        },
+        {
+            "tag": "howtohelp",
+            "patterns": [
+                "how can i help",
+                "what can i do",
+                "how to contribute",
+                "how to donate"
+            ],
+            "responses": [
+                "Being here is already a great first step. Ask me about resources to learn from. I can also provide you an entire list!"
+            ]
+        },
+        {
+            "tag": "distress",
+            "patterns": [
+                "i need help",
+                "i'm depressed",
+                "i'm sad",
+                "i am lonely"
+            ],
+            "responses": [
+                "What you're feeling is normal. You are not alone. Ask me about resources - you'll definitely find something that suits your problems."
+            ]
+        }
+    ]
+}
