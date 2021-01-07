@@ -84,5 +84,6 @@ def chatbot_response(text):
     res = getResponse(ints, intents)
     return res
 
+
 if __name__ == "__bot__":
     app.run(threaded=True, port=5000)
