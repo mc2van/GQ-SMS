@@ -5,6 +5,7 @@ import numpy as np
 import pickle
 from flask import Flask, request
 import twilio
+from twilio import twiml
 from twilio.twiml.messaging_response import MessagingResponse
 import requests
 import os
@@ -93,4 +94,4 @@ def index():
 
 if __name__ == "__bot__":
     port1 = int(os.environ.get('PORT', 8000))
-    app.run(host='0.0.0.0', threaded=True, port=port1)
+    app.run(threaded=True, port=port1)
