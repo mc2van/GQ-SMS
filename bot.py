@@ -89,8 +89,8 @@ def chatbot_response(text):
 
 @app.route('/')
 def index():
-    return "<h1>Welcome to the Text4Wx Page!</h1>"
+    return "<h1>Hello</h1>"
 
 if __name__ == "__bot__":
-    port = int(os.environ.get('PORT', 5000))
-    app.run(host='0.0.0.0', threaded=True, port=port)
+    port1 = int(os.environ.get('PORT', 8000))
+    app.run(host='0.0.0.0', threaded=True, port=port1)
