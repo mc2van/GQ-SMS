@@ -20,7 +20,7 @@ classes = pickle.load(open('classes.pkl', 'rb'))
 app = Flask(__name__)
 
 
-@app.route('/bot', methods=['post'])
+@app.route('/bot', methods=['POST'])
 def bot():
     incomingMsg = request.values.get('Body', '').lower()
     resp = MessagingResponse()
