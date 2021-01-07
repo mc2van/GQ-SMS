@@ -8,6 +8,8 @@ import twilio
 from twilio.twiml.messaging_response import MessagingResponse
 import requests
 import os
+from dotenv import load_dotenv
+load_dotenv()
 
 import nltk
 from nltk.stem import WordNetLemmatizer
