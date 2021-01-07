@@ -12,10 +12,10 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 
-model = load_model('/training/chatbot_model.h5')
-intents = json.loads(open('/training/intents.json').read())
-words = pickle.load(open('/training/words.pkl', 'rb'))
-classes = pickle.load(open('/training/classes.pkl', 'rb'))
+model = load_model('chatbot_model.h5')
+intents = json.loads(open('intents.json').read())
+words = pickle.load(open('words.pkl', 'rb'))
+classes = pickle.load(open('classes.pkl', 'rb'))
 app = Flask(__name__)
 
 
@@ -80,13 +80,9 @@ def getResponse(ints, intents_json):
 def chatbot_response(text):
     ints = predict_class(text, model)
     if float(ints[0]['probability']) < 0.5:
-        return "Sorry, I’m not fully equipped to respond to that. Type ‘help’ for some possible prompts, or try asking me something else."
+        return "Sorry, I’m not fully equipped to respond to that. Type ‘prompts’ for some possible prompts, or try asking me something else."
     res = getResponse(ints, intents)
     return res
-
-@app.route('/')
-def index():
-    return "<h1>Welcome to QG-SMS!</h1>"
 
 if __name__ == "__bot__":
     app.run(threaded=True, port=5000)

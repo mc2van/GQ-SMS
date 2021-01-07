@@ -7,12 +7,11 @@
                 "How are you",
                 "Is anyone there?",
                 "Hello",
-                "Good day",
                 "Hey"
             ],
             "responses": [
-                "Hi there, how can I help? Type 'help' for more info.",
-                "Hello, ask me a question! Type 'help' for more info."
+                "Hi there, how can I help? Type 'prompts' for more info.",
+                "Hello, ask me a question! Type 'prompts' for more info."
             ]
         },
         {
@@ -42,10 +41,10 @@
             ]
         },
         {
-            "tag": "help",
+            "tag": "prompts",
             "patterns": [
-                "Help",
-                "'Help'"
+                "prompts",
+                "'prompts'"
             ],
             "responses": [
                 "Please note that this messaging service is not equipped for personal disclosure of mental health distress, suicidal thoughts, and/or behaviours. If you or someone you know are in crisis, please call 911, text 1-800-273-8255 (Suicide Prevention Line) or go to your nearest emergency department for assistance.\nHere are some things to ask me about:\n- Movember\n- Warning Signs / Symptoms\n- Who can I talk to?\n- A new resource (or all resources)\n- COVID-19 and Mental Health \n- Practicing difficult conversations\n- Self-checks\n- How to help"
