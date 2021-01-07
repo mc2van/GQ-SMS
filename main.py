@@ -92,6 +92,6 @@ def chatbot_response(text):
 def index():
     return "<h1>Hello</h1>"
 
-if __name__ == "__bot__":
+if __name__ == "__main__":
     port1 = int(os.environ.get('PORT', 8000))
     app.run(threaded=True, port=port1)
