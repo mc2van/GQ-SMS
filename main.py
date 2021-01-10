@@ -20,7 +20,7 @@ lemmatizer = WordNetLemmatizer()
 # intents = json.loads(open('intents.json').read())
 # words = pickle.load(open('words.pkl', 'rb'))
 # classes = pickle.load(open('classes.pkl', 'rb'))
-# app = Flask(__name__)
+ app = Flask(__name__)
 
 
 # @app.route('/bot', methods=['POST'])
