@@ -1,26 +1,26 @@
-import random
-import json
-from keras.models import load_model
-import numpy as np
-import pickle
-from flask import Flask, request
-import twilio
-from twilio import twiml
-from twilio.twiml.messaging_response import MessagingResponse
-import requests
-import os
-from dotenv import load_dotenv
-load_dotenv()
+# import random
+# import json
+# from keras.models import load_model
+# import numpy as np
+# import pickle
+# from flask import Flask, request
+# import twilio
+# from twilio import twiml
+# from twilio.twiml.messaging_response import MessagingResponse
+# import requests
+# import os
+# from dotenv import load_dotenv
+# load_dotenv()
 
-import nltk
-from nltk.stem import WordNetLemmatizer
-lemmatizer = WordNetLemmatizer()
+# import nltk
+# from nltk.stem import WordNetLemmatizer
+# lemmatizer = WordNetLemmatizer()
 
 # model = load_model('chatbot_model.h5')
 # intents = json.loads(open('intents.json').read())
 # words = pickle.load(open('words.pkl', 'rb'))
 # classes = pickle.load(open('classes.pkl', 'rb'))
- app = Flask(__name__)
+# app = Flask(__name__)
 
 
 # @app.route('/bot', methods=['POST'])
@@ -88,9 +88,9 @@ lemmatizer = WordNetLemmatizer()
 #     res = getResponse(ints, intents)
 #     return res
 
-@app.route('/')
-def index():
-    return "<h1>Hello</h1>"
+# @app.route('/')
+# def index():
+#     return "<h1>Hello</h1>"
 
-if __name__ == "__main__":
-    app.run(port=5000)
+# if __name__ == "__main__":
+#     app.run(port=5000)
